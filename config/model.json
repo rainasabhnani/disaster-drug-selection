@@ -1,11 +1,11 @@
 {
   "model-schema": [
-    {"name": "AGE", "type": "integer"},
-    {"name": "SEX", "type": "string"},
-    {"name": "BP", "type": "string"},
-    {"name": "CHOLESTEROL", "type": "string"},
-    {"name": "NA", "type": "decimal(12,6)"},
-    {"name": "K", "type": "decimal(13,6)"}
+    {"name": "Disaster Category", "type": "integer"},
+    {"name": "EPIDEMIC", "type": "string"},
+    {"name": "Severity", "type": "string"},
+    {"name": "Impact", "type": "string"},
+    {"name": "Area Affected", "type": "decimal(12,6)"},
+    {"name": "Population Density", "type": "decimal(13,6)"}
   ],
   "label": "DRUG",
   "label-values": [
@@ -16,8 +16,8 @@
     {"title": "Drug Y (new)", "value": "drugY"}
   ],
   "model-input": [
-    {"name": "Alice",     "icon": "alice",      "data": [24,"F","HIGH","NORMAL",0.613261,0.064726]},
-    {"name": "Gregory",   "icon": "gregory",    "data": [32,"M","HIGH","NORMAL",0.529750,0.056087]},
+    {"name": "Earthquake",     "icon": "earthquake",      "data": [24,"F","HIGH","NORMAL",0.613261,0.064726]},
+    {"name": "Flood",   "icon": "flood",    "data": [32,"M","HIGH","NORMAL",0.529750,0.056087]},
     {"name": "Joanna",    "icon": "joanna",     "data": [44,"F","HIGH","NORMAL",0.898924,0.071023]},
     {"name": "Alexander", "icon": "alexander",  "data": [65,"M","HIGH","HIGH",0.635551,0.056043]},
     {"name": "Bill",      "icon": "alexander",  "data": [54,"M","NORMAL","HIGH",0.543355,0.032247]},
