@@ -39852,7 +39852,7 @@ function PersonCard(props) {
       _react2.default.createElement(
         'p',
         { className: _style2.default['user-info-line1'] },
-        'BP'
+        'Severity'
       ),
       _react2.default.createElement(
         'p',
@@ -39866,7 +39866,7 @@ function PersonCard(props) {
       _react2.default.createElement(
         'p',
         { className: _style2.default['user-info-line1'] },
-        'CH'
+        'Impact'
       ),
       _react2.default.createElement(
         'p',
@@ -39880,7 +39880,7 @@ function PersonCard(props) {
       _react2.default.createElement(
         'p',
         { className: _style2.default['user-info-line1'] },
-        'NA'
+        'Area Affected'
       ),
       _react2.default.createElement(
         'p',
@@ -39894,7 +39894,7 @@ function PersonCard(props) {
       _react2.default.createElement(
         'p',
         { className: _style2.default['user-info-line1'] },
-        'K'
+        'Population Density'
       ),
       _react2.default.createElement(
         'p',
