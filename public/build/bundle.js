@@ -40345,7 +40345,7 @@ var Scoring = function (_Component) {
         return;
       }
       if (this.state.scoringData == null) {
-        this._alert('Select a Patient');
+        this._alert('Select a disaster type');
         return;
       }
       this.setState({
@@ -40382,7 +40382,7 @@ var Scoring = function (_Component) {
         return;
       }
       if (this.state.scoringData == null) {
-        this._alert('Select a Patient');
+        this._alert('Select a Disaster Type');
         return;
       }
       this.setState({
@@ -40496,7 +40496,7 @@ var Scoring = function (_Component) {
             _react2.default.createElement(
               'p',
               null,
-              'We would like to know your opinion which drug is the most suitable for this patient?'
+              'We would like to know your opinion which drug is the most suitable for this disaster?'
             ),
             feedbackButtons
           ) : !this.state.feedbackLoading ? _react2.default.createElement(
@@ -40532,7 +40532,7 @@ var Scoring = function (_Component) {
           _react2.default.createElement(
             'h3',
             null,
-            'Select a Patient'
+            'Select a Disaster Type'
           ),
           _react2.default.createElement(_PersonsList2.default, { persons: this.persons, onChoose: this.setScoringData, selected: this.state.scoringData && this.state.scoringData.id })
         ) : null,
