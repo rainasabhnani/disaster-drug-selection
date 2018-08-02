@@ -39,8 +39,7 @@ function PersonCard (props) {
     <div onClick={handleClick} className={classNames(styles['user-card'], {'markWithColorBorder': props.highligth})}>
       <img className={styles['user-avatar']} src={'images/avatars/' + props.icon + '.svg'}/>
       <h1 className={classNames(styles['user-name'], {'markWithColor': props.highligth})}>{props.name}</h1>
-   <!--   <p className={styles['user-title']}>{gender}, {age} years</p> -->
-
+ 
       <div className={styles['user-info']} style={{borderRight: '2px solid #DFDFDF'}}>
         <p className={styles['user-info-line1']}>Severity</p>
         <p className={styles['user-info-line2']}>{bp}</p>
