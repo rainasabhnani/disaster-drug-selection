@@ -976,6 +976,7 @@ var findAllByType = function findAllByType(children, type) {
 
   if (__WEBPACK_IMPORTED_MODULE_4_lodash_isArray___default()(type)) {
     types = type.map(function (t) {
+    types = type.map(function (t) {
       return getDisplayName(t);
     });
   } else {
@@ -39840,11 +39841,11 @@ function PersonCard(props) {
     ),
     _react2.default.createElement(
       'p',
-      { className: _style2.default['user-title'] },
+      { className: _style2.default['user-title'] }/*,
       gender,
       ', ',
       age,
-      ' years'
+      ' years'*/
     ),
     _react2.default.createElement(
       'div',
@@ -39852,7 +39853,7 @@ function PersonCard(props) {
       _react2.default.createElement(
         'p',
         { className: _style2.default['user-info-line1'] },
-        'BP'
+        'Severity'
       ),
       _react2.default.createElement(
         'p',
@@ -39866,7 +39867,7 @@ function PersonCard(props) {
       _react2.default.createElement(
         'p',
         { className: _style2.default['user-info-line1'] },
-        'CH'
+        'Impact'
       ),
       _react2.default.createElement(
         'p',
@@ -39880,7 +39881,7 @@ function PersonCard(props) {
       _react2.default.createElement(
         'p',
         { className: _style2.default['user-info-line1'] },
-        'NA'
+        'Area Affected'
       ),
       _react2.default.createElement(
         'p',
@@ -39894,7 +39895,7 @@ function PersonCard(props) {
       _react2.default.createElement(
         'p',
         { className: _style2.default['user-info-line1'] },
-        'K'
+        'Population Density'
       ),
       _react2.default.createElement(
         'p',
