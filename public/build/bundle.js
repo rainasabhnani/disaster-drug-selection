@@ -39840,11 +39840,11 @@ function PersonCard(props) {
     ),
     _react2.default.createElement(
       'p',
-      { className: _style2.default['user-title'] },
+      { className: _style2.default['user-title'] }/*,
       gender,
       ', ',
       age,
-      ' years'
+      ' years'*/
     ),
     _react2.default.createElement(
       'div',
