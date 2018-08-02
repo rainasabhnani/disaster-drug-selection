@@ -976,7 +976,6 @@ var findAllByType = function findAllByType(children, type) {
 
   if (__WEBPACK_IMPORTED_MODULE_4_lodash_isArray___default()(type)) {
     types = type.map(function (t) {
-    types = type.map(function (t) {
       return getDisplayName(t);
     });
   } else {
@@ -14151,11 +14150,11 @@ var formatAxisMap = function formatAxisMap(props, axisMap, offset, axisType, cha
 module.exports = {"model-schema":[{"name":"Severity","type":"string"},{"name":"Impact","type":"string"},{"name":"Area Affected","type":"decimal(12,6)"},{"name":"Population Density","type":"decimal(13,6)"}],"label":"DRUG","label-values":[{"title":"Drug A","value":"drugA"},{"title":"Drug B","value":"drugB"},{"title":"Drug C","value":"drugC"},{"title":"Drug X (new)","value":"drugX"},{"title":"Drug Y (new)","value":"drugY"}],"model-input":[{"name":"Earthquake","icon":"earthquake","data":["HIGH","NORMAL",0.613261,0.064726]},{"name":"Flood","icon":"flood","data":["HIGH","NORMAL",0.52975,0.056087]},{"name":"Joanna","icon":"joanna","data":[44,"F","HIGH","NORMAL",0.898924,0.071023]},{"name":"Alexander","icon":"alexander","data":[65,"M","HIGH","HIGH",0.635551,0.056043]},{"name":"Bill","icon":"alexander","data":[54,"M","NORMAL","HIGH",0.543355,0.032247]},{"name":"Olivia","icon":"alice","data":[49,"F","HIGH","NORMAL",0.52975,0.056087]},{"name":"Mark","icon":"gregory","data":[44,"M","LOW","NORMAL",0.84773,0.025274]},{"name":"Emma","icon":"joanna","data":[72,"F","NORMAL","NORMAL",0.526226,0.072234]}],"model-prediction-mapping":{"0":"Drug A","1":"Drug B","2":"Drug C","3":"Drug X","4":"Drug Y"}}
 */
 
-//module.exports = {"model-schema":[{"name":"AGE","type":"integer"},{"name":"SEX","type":"string"},{"name":"BP","type":"string"},{"name":"CHOLESTEROL","type":"string"},{"name":"NA","type":"decimal(12,6)"},{"name":"K","type":"decimal(13,6)"}],"label":"DRUG","label-values":[{"title":"Drug A","value":"drugA"},{"title":"Drug B","value":"drugB"},{"title":"Drug C","value":"drugC"},{"title":"Drug X (new)","value":"drugX"},{"title":"Drug Y (new)","value":"drugY"}],"model-input":[{"name":"Earthquake","icon":"earthquake","data":[24,"F","HIGH","NORMAL",0.613261,0.064726]},{"name":"Flood","icon":"flood","data":[32,"M","HIGH","NORMAL",0.52975,0.056087]},{"name":"Joanna","icon":"joanna","data":[44,"F","HIGH","NORMAL",0.898924,0.071023]},{"name":"Alexander","icon":"alexander","data":[65,"M","HIGH","HIGH",0.635551,0.056043]},{"name":"Bill","icon":"alexander","data":[54,"M","NORMAL","HIGH",0.543355,0.032247]},{"name":"Olivia","icon":"alice","data":[49,"F","HIGH","NORMAL",0.52975,0.056087]},{"name":"Mark","icon":"gregory","data":[44,"M","LOW","NORMAL",0.84773,0.025274]},{"name":"Emma","icon":"joanna","data":[72,"F","NORMAL","NORMAL",0.526226,0.072234]}],"model-prediction-mapping":{"0":"Drug A","1":"Drug B","2":"Drug C","3":"Drug X","4":"Drug Y"}}
+module.exports = {"model-schema":[{"name":"AGE","type":"integer"},{"name":"SEX","type":"string"},{"name":"BP","type":"string"},{"name":"CHOLESTEROL","type":"string"},{"name":"NA","type":"decimal(12,6)"},{"name":"K","type":"decimal(13,6)"}],"label":"DRUG","label-values":[{"title":"Drug A","value":"drugA"},{"title":"Drug B","value":"drugB"},{"title":"Drug C","value":"drugC"},{"title":"Drug X (new)","value":"drugX"},{"title":"Drug Y (new)","value":"drugY"}],"model-input":[{"name":"Earthquake","icon":"earthquake","data":[24,"F","HIGH","NORMAL",0.613261,0.064726]},{"name":"Flood","icon":"flood","data":[32,"M","HIGH","NORMAL",0.52975,0.056087]},{"name":"Joanna","icon":"joanna","data":[44,"F","HIGH","NORMAL",0.898924,0.071023]},{"name":"Alexander","icon":"alexander","data":[65,"M","HIGH","HIGH",0.635551,0.056043]},{"name":"Bill","icon":"alexander","data":[54,"M","NORMAL","HIGH",0.543355,0.032247]},{"name":"Olivia","icon":"alice","data":[49,"F","HIGH","NORMAL",0.52975,0.056087]},{"name":"Mark","icon":"gregory","data":[44,"M","LOW","NORMAL",0.84773,0.025274]},{"name":"Emma","icon":"joanna","data":[72,"F","NORMAL","NORMAL",0.526226,0.072234]}],"model-prediction-mapping":{"0":"Drug A","1":"Drug B","2":"Drug C","3":"Drug X","4":"Drug Y"}}
 
-
+/*
 module.exports = {"model-schema":[{"name":"Disaster Category","type":"integer"},{"name":"EPIDEMIC","type":"string"},{"name":"Severity","type":"string"},{"name":"Impact","type":"string"},{"name":"Area Affected","type":"decimal(12,6)"},{"name":"Population Density","type":"decimal(13,6)"}],"label":"DRUG","label-values":[{"title":"Drug A","value":"drugA"},{"title":"Drug B","value":"drugB"},{"title":"Drug C","value":"drugC"},{"title":"Drug X (new)","value":"drugX"},{"title":"Drug Y (new)","value":"drugY"}],"model-input":[{"name":"Earthquake","icon":"earthquake","data":[1,"N","HIGH","NORMAL",0.613261,0.064726]},{"name":"Flood","icon":"flood","data":[2,"N","HIGH","NORMAL",0.52975,0.056087]},{"name":"Joanna","icon":"joanna","data":[44,"F","HIGH","NORMAL",0.898924,0.071023]},{"name":"Alexander","icon":"alexander","data":[65,"M","HIGH","HIGH",0.635551,0.056043]},{"name":"Bill","icon":"alexander","data":[54,"M","NORMAL","HIGH",0.543355,0.032247]},{"name":"Olivia","icon":"alice","data":[49,"F","HIGH","NORMAL",0.52975,0.056087]},{"name":"Mark","icon":"gregory","data":[44,"M","LOW","NORMAL",0.84773,0.025274]},{"name":"Emma","icon":"joanna","data":[72,"F","NORMAL","NORMAL",0.526226,0.072234]}],"model-prediction-mapping":{"0":"Drug A","1":"Drug B","2":"Drug C","3":"Drug X","4":"Drug Y"}}
-
+*/
 /***/ }),
 /* 94 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -39839,21 +39838,21 @@ function PersonCard(props) {
       { className: (0, _classnames2.default)(_style2.default['user-name'], { 'markWithColor': props.highligth }) },
       props.name
     ),
-  /*  _react2.default.createElement(
+    _react2.default.createElement(
       'p',
       { className: _style2.default['user-title'] },
       gender,
       ', ',
       age,
       ' years'
-    ),*/
+    ),
     _react2.default.createElement(
       'div',
       { className: _style2.default['user-info'], style: { borderRight: '2px solid #DFDFDF' } },
       _react2.default.createElement(
         'p',
         { className: _style2.default['user-info-line1'] },
-        'Severity'
+        'BP'
       ),
       _react2.default.createElement(
         'p',
@@ -39867,7 +39866,7 @@ function PersonCard(props) {
       _react2.default.createElement(
         'p',
         { className: _style2.default['user-info-line1'] },
-        'Impact'
+        'CH'
       ),
       _react2.default.createElement(
         'p',
@@ -39881,7 +39880,7 @@ function PersonCard(props) {
       _react2.default.createElement(
         'p',
         { className: _style2.default['user-info-line1'] },
-        'Area Affected'
+        'NA'
       ),
       _react2.default.createElement(
         'p',
@@ -39895,7 +39894,7 @@ function PersonCard(props) {
       _react2.default.createElement(
         'p',
         { className: _style2.default['user-info-line1'] },
-        'Population Density'
+        'K'
       ),
       _react2.default.createElement(
         'p',
