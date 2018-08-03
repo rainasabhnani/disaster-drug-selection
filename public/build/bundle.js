@@ -40108,7 +40108,7 @@ var Result = function (_Component) {
               { className: (0, _classnames2.default)(_style2.default['bold'], 'markWithColor') },
               best.drug
             ),
-            ' is recommended for',
+            ' is most required drug for',
             _react2.default.createElement(
               'span',
               { className: (0, _classnames2.default)(_style2.default['bold'], 'markWithColor') },
